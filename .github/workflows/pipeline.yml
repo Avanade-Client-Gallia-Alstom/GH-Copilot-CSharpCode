@@ -1,0 +1,23 @@
+# Github Action pipeline that runs on push to main branch
+name: Main Branch Pipeline
+on:
+    push:
+        branches:
+            - main
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v2
+            - name: Build and test
+              run: |
+                    # Add build and test commands here
+# Docker build and push the album-api image to ACR
+# tag the image with the github run id and push to docker hub
+# run tests on the album-api image
+
+# deploy the album-api image to the dev AKS cluster
+# find and replace the %%VERSION%% by the github action run id in every appmanifest.yml file
+
+    
