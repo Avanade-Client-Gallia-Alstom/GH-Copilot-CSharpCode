@@ -1,1 +1,1 @@
-//Write code to perform file operations like read and update
+//Create a function to Read logs of todays date from c drive temp folder and write it to an xml file in the same location using streamwriter

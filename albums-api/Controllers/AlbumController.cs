@@ -29,14 +29,12 @@ namespace albums_api.Controllers
         }
 
         // GET: api/album/search
-        // function that search album by name, artist or genre        
-     
+        // function that search album by  artist based on album model and GetAll function
+  
        
         // GET: api/album/sort
-        // function that sort albums by name, artist or genre
-
-
-       //create an api to fetch all the payments using sql database connection
+        // function that sort albums by artist based on album model and GetAll function
        
+               
     }
 }
