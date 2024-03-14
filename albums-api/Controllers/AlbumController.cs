@@ -12,29 +12,11 @@ namespace albums_api.Controllers
     [ApiController]
     public class AlbumController : ControllerBase
     {
-        // GET: api/album
-        [HttpGet]
-        public IActionResult Get()
-        {
-            var albums = Album.GetAll();
+        //Http Get function to get all albums
+        
+        //Http Get function to get album by id
+             
 
-            return Ok(albums);
-        }
 
-        // GET api/<AlbumController>/5
-        [HttpGet("{id}")]
-        public IActionResult Get(int id)
-        {
-            return Ok();
-        }
-
-        // GET: api/album/search
-        // function that search album by  artist based on album model and GetAll function
-  
-       
-        // GET: api/album/sort
-        // function that sort albums by artist based on album model and GetAll function
-       
-               
     }
 }
