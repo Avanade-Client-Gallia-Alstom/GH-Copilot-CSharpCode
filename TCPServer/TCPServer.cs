@@ -5,7 +5,7 @@ using System.Text;
 
 namespace TCPServer
 {
-    class Program
+    class TCPServer
     {
         static void Main(string[] args)
         {
